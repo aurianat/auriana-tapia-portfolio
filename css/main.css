@@ -151,7 +151,7 @@ textarea {
    /******
    4 Colors 
    white: #ffffff;
-   Blue: #b3d4fc;
+   Blue: #1a8fe3;;
    Yellow: #e6c229;
    Purple: #6610f2;
    ******/
@@ -160,40 +160,62 @@ textarea {
 
 header, 
 footer {
-
+  background-color: #1a8fe3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header {
-
+  padding: 15px 0;
 }
 
 header .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
 }
 
 header nav  {
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 80%;
 }
 
 header nav ul {
-
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 header nav ul li {
+  font-size: 1.125em;
 
 }
 
+header nav ul li a {
+  color: #ffffff;
+}
 
 footer {
-
+  flex-direction: column;
+  text-align: center;
 }
 
 footer .content-wrapper {
-
+  width: 55%;
+  margin: 0;
 }
 
 footer p {
-
+  margin: 0;
+  color: #ffffff;
 }
 
 footer .footer-content {
@@ -201,7 +223,7 @@ footer .footer-content {
 }
 
 footer .portrait {
-
+  margin: 50px 0;
 }
 
 footer #contact {
@@ -209,7 +231,7 @@ footer #contact {
 }
 
 footer .contact-info {
-
+  margin: 50px 0;
 }
 
 footer a {
@@ -217,25 +239,145 @@ footer a {
 }
 
 footer .social {
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-footer .social-icons {
+footer .social-icons p {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons p i {
+    font-size: 1.5em;
 
 }
 
 footer .copyright {
-
+  margin: 20px 0;
 }
 
 
 /* ---------------Mobile Homepage Styles --------------------*/
 
   /*Headline area*/
+.headline {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  text-align: left;
+}
 
+.headline div {
+  width: 90%;
+}
+
+.headline h1 {
+margin: 50px 0; 
+}
+
+.headline h1 span{
+  color: #6610f2;
+}
+
+.headline h2 {
+  margin: 0;
+  font-size: 1.875em;
+}
+
+.headline h2 span{
+  font-style: italic;
+}
 
   /*Work area*/
   
+#work {
+
+}
+
+.work {
+
+}
+
+.work .content-wrapper{
+  margin: 0 25px 50px 25px;
+}
+
+.work .portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.work .portfolio-img img{
+
+}
+
+.work a {
+  color: #6610f2;
+}
+
+.work h3 {
+  text-align: center;
+}
+
+.work p {
+  text-align: center;
+}
+
+
+/* Contact / Social */
+
+footer .content-wrapper {
+
+}
+
+footer .portrait img {
+
+}
+
+
+#contact {
+
+}
+
+.contact-info {
+
+}
+
+.contact-info h4 {
+
+}
+
+.contact-info address {
+
+}
+
+
+.social {
+
+}
+
+.social h4 {
+
+}
+
+.social-icons p {
+
+}
+
+.social-icons p a {
+
+}
+
 
 
 
