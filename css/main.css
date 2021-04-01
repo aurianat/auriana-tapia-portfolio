@@ -90,48 +90,71 @@ textarea {
    /**** General styles****/
 
    html {
-
+    font-size: 16px;
    }
 
    body {
-
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    text-align: left;
    }
 
    ol,
    ul {
-
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
    }
 
    a {
-
+    color: #6610f2;
+    text-decoration: none;
+    font-weight: 700;
    }
 
    h2 {
-
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.875em;
+    font-weight: 500;
    }
 
    h3,
    h4 {
-
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1250em;
+    font-weight: 500;
    }
 
    p {
-
-   }
+    font-size: 0.8750em;   
+    line-height: 1.285em;
+  }
 
    img {
-
+    width: 100%;
    }
 
-   figure {}
+   figure {
+    margin: 0;
+   }
 
    address {
-
+    font-style: normal;
    }
 
    .content-wrapper {
-
+    width: 90%;
+    margin-top: 50px 0;
    }
+
+   /* Color Scheme */
+   /******
+   4 Colors 
+   white: #ffffff;
+   Blue: #b3d4fc;
+   Yellow: #e6c229;
+   Purple: #6610f2;
+   ******/
 
 /* ---------------Base Header - Footer Styles --------------------*/
 
@@ -213,7 +236,6 @@ footer .copyright {
 
   /*Work area*/
   
-
 
 
 
