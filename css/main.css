@@ -145,6 +145,10 @@ textarea {
    .content-wrapper {
     width: 90%;
     margin-top: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
    /* Color Scheme */
@@ -222,6 +226,11 @@ footer .footer-content {
 
 }
 
+footer .footer-content h4 {
+  font-weight: 700;
+  color: #ffffff;
+}
+
 footer .portrait {
   margin: 50px 0;
 }
@@ -284,7 +293,7 @@ margin: 50px 0;
 }
 
 .headline h1 span{
-  color: #6610f2;
+  color: #6610f2;t
 }
 
 .headline h2 {
@@ -311,14 +320,15 @@ margin: 50px 0;
 }
 
 .work .portfolio {
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
 }
 
-.work .portfolio-img img{
-
+.work img .portfolio-img {
+  border: 5px solid #e6c229;
 }
 
 .work a {
@@ -326,11 +336,16 @@ margin: 50px 0;
 }
 
 .work h3 {
+  color: #6610f2;
   text-align: center;
+  margin-bottom: 0;
+  font-weight: 700;
+
 }
 
 .work p {
-  text-align: center;
+  text-align: justify;
+  margin-top: 5px;
 }
 
 
@@ -375,7 +390,7 @@ footer .portrait img {
 }
 
 .social-icons p a {
-
+  color: #ffffff;
 }
 
 
